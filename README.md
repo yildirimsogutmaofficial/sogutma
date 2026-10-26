@@ -1,4 +1,4 @@
-# BSM Yıldırım Soğutma Teknik Servis — web sitesi
+# Yıldırım Soğutma Teknik Servis — web sitesi
 
 Mobil uyumlu, tek sayfalı Türkçe işletme sitesi. HTML, CSS ve JavaScript ile hazırlanmıştır; bir framework veya derleme adımı gerekmez.
 
