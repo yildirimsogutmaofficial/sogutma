@@ -5,3 +5,18 @@
 @media(max-width:800px){.site-header{height:72px}.container{width:min(100% - 32px,600px)}.menu-toggle{display:block;margin-left:auto}.nav-call{display:none}.main-nav{display:none;position:absolute;top:71px;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);padding:12px 22px 20px;box-shadow:0 15px 25px rgba(16,43,70,.08);align-items:stretch;gap:0;flex-direction:column}.main-nav.open{display:flex}.main-nav a{padding:12px 0;border-bottom:1px solid #edf1f4;font-size:13px}.hero{padding-top:55px}.hero-grid{grid-template-columns:1fr;gap:5px}.hero-copy{padding-bottom:25px}.hero-panel{min-height:350px}.service-illustration{height:225px}.trust-strip{grid-template-columns:repeat(2,1fr);gap:20px;padding:22px;margin-top:28px}.trust-strip>div{padding-left:16px}.trust-strip>div:nth-child(3){border-left:0;padding-left:0}.section{padding:72px 0}.section-heading{display:block;margin-bottom:28px}.section-heading>p{margin-top:17px}.service-grid{grid-template-columns:repeat(2,1fr)}.about-grid,.areas-grid,.contact-grid{grid-template-columns:1fr;gap:35px}.about-visual{min-height:300px}.about-copy h2,.areas-grid h2,.contact-copy h2{font-size:34px}.steps-grid{gap:12px}.step{padding:20px 17px}.footer-main{grid-template-columns:repeat(2,1fr);gap:35px}.footer-brand{grid-column:1/-1}.contact-card{padding:23px}}
 @media(max-width:520px){.container{width:calc(100% - 30px)}.brand-mark{width:42px;height:40px}.brand-text strong{font-size:12px}.brand-text small{font-size:8px;letter-spacing:1.4px}.hero{padding-top:42px}h1{font-size:39px;letter-spacing:-1.8px}.hero-lead{font-size:13px}.hero-actions .btn{width:100%}.hero-points{gap:10px 14px}.hero-panel{min-height:320px;padding:18px}.service-illustration{height:205px}.tool-symbol{font-size:76px}.orbit-a{width:210px;height:150px}.orbit-b{width:250px;height:190px}.tag-one{right:12px;top:25px}.tag-two{left:0;bottom:27px}.tag-three{right:0;bottom:15px}.trust-strip{padding:18px 16px}.trust-strip strong{font-size:18px}.trust-strip span{font-size:9px}.section{padding:62px 0}.section-heading h2{font-size:32px}.service-grid{grid-template-columns:1fr}.service-card{min-height:unset;padding:23px}.service-card>p{font-size:12px}.price-row{margin-top:5px}.about-visual{min-height:260px}.about-big{font-size:75px}.steps-grid{grid-template-columns:1fr}.step{padding:22px}.areas-grid{gap:25px}.area-tags{gap:7px}.area-tags span{padding:9px 11px;font-size:10px}.contact-method div a{font-size:15px}.contact-actions .btn{flex:1}.contact-card{padding:18px}.footer-main{grid-template-columns:1fr 1fr;gap:28px 18px}.footer-bottom{align-items:flex-start;gap:15px;line-height:1.8}.floating-actions{right:12px;bottom:12px}.floating-actions a{height:43px;padding:0 12px}.footer-brand p{max-width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* PageSpeed erisilebilirlik - yazi kontrasti */
+.trust-strip span,
+.card-kicker,
+.price-row,
+.price-note,
+.contact-method small,
+.form-note {
+  color: #526477;
+}
+
+.float-wa {
+  background: #087b50;
+  color: #ffffff;
+}
