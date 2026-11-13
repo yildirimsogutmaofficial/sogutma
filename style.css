@@ -20,3 +20,10 @@
   background: #087b50;
   color: #ffffff;
 }
+
+/* PageSpeed - kalan aciklama yazilarinin kontrasti */
+.about-copy > p:not(.eyebrow),
+.areas-grid > div:first-child > p:not(.eyebrow),
+.contact-card-head p {
+  color: #405367;
+}
