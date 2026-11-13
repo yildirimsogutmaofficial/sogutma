@@ -128,3 +128,53 @@
   right: 5%;
   bottom: 75px;
 }
+
+/* Hizmet etiketlerini tek satirda duzenle */
+.hero-panel .service-illustration {
+  padding-bottom: 90px;
+}
+
+.hero-panel .floating-tag {
+  top: auto;
+  bottom: 35px;
+  transform: none;
+  white-space: nowrap;
+  font-size: 10px;
+  padding: 7px 10px;
+}
+
+.hero-panel .tag-one {
+  left: 12%;
+  right: auto;
+}
+
+.hero-panel .tag-two {
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+}
+
+.hero-panel .tag-three {
+  left: auto;
+  right: 12%;
+}
+
+@media (max-width: 520px) {
+  .hero-panel .service-illustration {
+    padding-bottom: 85px;
+  }
+
+  .hero-panel .floating-tag {
+    bottom: 30px;
+    font-size: 9px;
+    padding: 6px 7px;
+  }
+
+  .hero-panel .tag-one {
+    left: 0;
+  }
+
+  .hero-panel .tag-three {
+    right: 0;
+  }
+}
