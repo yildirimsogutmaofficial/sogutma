@@ -38,113 +38,96 @@
 .service-card .icon-tv{--service-icon:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Crect%20x%3D%222%22%20y%3D%224%22%20width%3D%2220%22%20height%3D%2215%22%20rx%3D%222%22%2F%3E%3Cpath%20d%3D%22M8%2022h8M12%2019v3%22%2F%3E%3C%2Fsvg%3E")}
 .service-card .icon-cool{--service-icon:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22black%22%20stroke-width%3D%221.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%202v20M4.9%204.9l14.2%2014.2M2%2012h20M4.9%2019.1%2019.1%204.9M9%205l3-3%203%203M9%2019l3%203%203-3M5%209l-3%203%203%203M19%209l3%203-3%203%22%2F%3E%3C%2Fsvg%3E")}
 /* Ana sayfa ust gorsel duzeni */
+
+/* ANA SAYFA SAG PANEL - TEMIZ DUZEN */
+.hero-panel {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero-panel .service-illustration {
-  height: 275px;
+  position: relative;
+  height: auto;
+  min-height: 290px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 65px;
 }
 
 .hero-panel .tool-symbol {
+  position: relative;
+  z-index: 2;
   display: grid;
   place-items: center;
   font-size: 0;
-}
-
-.hero-panel .tool-symbol svg {
-  width: 150px;
-  height: 150px;
+  line-height: 1;
   transform: none;
 }
 
-.hero-panel .panel-bottom {
-  margin-top: 8px;
-}
-
-@media (max-width: 520px) {
-  .hero-panel .service-illustration {
-    height: 225px;
-  }
-
-  .hero-panel .tool-symbol svg {
-    width: 125px;
-    height: 125px;
-  }
-}
-
-/* Ust panel - duzenlenmis yerlesim */
-.hero-panel .service-illustration {
-  height: 275px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-panel .tool-symbol {
-  display: grid;
-  place-items: center;
-  font-size: 0;
-  transform: translateY(-12px);
-}
-
 .hero-panel .tool-symbol svg {
-  width: 155px;
-  height: 155px;
+  width: 145px;
+  height: 145px;
   transform: none;
 }
 
 .hero-panel .floating-tag {
-  transform: none;
+  position: absolute;
   z-index: 2;
+  top: auto;
+  right: auto;
+  bottom: 14px;
+  left: auto;
+  transform: none;
 }
 
 .hero-panel .tag-one {
-  top: 35px;
-  right: 25px;
-  left: auto;
+  left: 7%;
 }
 
 .hero-panel .tag-two {
-  top: 115px;
-  left: 15px;
-  bottom: auto;
-  right: auto;
+  left: 39%;
 }
 
 .hero-panel .tag-three {
-  top: 175px;
-  right: 15px;
-  bottom: auto;
-  left: auto;
+  right: 5%;
 }
 
 .hero-panel .panel-bottom {
-  margin-top: 0;
-  padding-top: 17px;
   position: relative;
   z-index: 3;
-  clear: both;
+  flex-shrink: 0;
+  margin-top: auto;
+  padding-top: 17px;
 }
 
 @media (max-width: 520px) {
   .hero-panel .service-illustration {
-    height: 225px;
+    min-height: 240px;
+    padding-bottom: 60px;
   }
 
   .hero-panel .tool-symbol svg {
-    width: 125px;
-    height: 125px;
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero-panel .floating-tag {
+    font-size: 9px;
+    padding: 6px 8px;
   }
 
   .hero-panel .tag-one {
-    top: 20px;
-    right: 8px;
-  }
-
-  .hero-panel .tag-two {
-    top: 100px;
     left: 0;
   }
 
+  .hero-panel .tag-two {
+    left: 34%;
+  }
+
   .hero-panel .tag-three {
-    top: 155px;
     right: 0;
   }
 }
