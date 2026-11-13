@@ -21,7 +21,7 @@ if (form) {
     const phone = document.querySelector('#customer-phone').value.trim();
     const service = document.querySelector('#service-type').value;
     const message = document.querySelector('#customer-message').value.trim();
-    const text = `Merhaba, BSM Yıldırım Soğutma Teknik Servis için randevu talep ediyorum.\nAd: ${name}\nTelefon: ${phone}\nHizmet: ${service}\nAçıklama: ${message || 'Belirtilmedi'}`;
+const text = `Merhaba, Yıldırım Soğutma Teknik Servis için randevu talep ediyorum.\nAd: ${name}\nTelefon: ${phone}\nHizmet: ${service}\nAçıklama: ${message || 'Belirtilmedi'}`;
     window.open(`https://wa.me/905057068598?text=${encodeURIComponent(text)}`, '_blank', 'noopener,noreferrer');
   });
 }
