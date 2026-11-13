@@ -68,3 +68,83 @@
     height: 125px;
   }
 }
+
+/* Ust panel - duzenlenmis yerlesim */
+.hero-panel .service-illustration {
+  height: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-panel .tool-symbol {
+  display: grid;
+  place-items: center;
+  font-size: 0;
+  transform: translateY(-12px);
+}
+
+.hero-panel .tool-symbol svg {
+  width: 155px;
+  height: 155px;
+  transform: none;
+}
+
+.hero-panel .floating-tag {
+  transform: none;
+  z-index: 2;
+}
+
+.hero-panel .tag-one {
+  top: 35px;
+  right: 25px;
+  left: auto;
+}
+
+.hero-panel .tag-two {
+  top: 115px;
+  left: 15px;
+  bottom: auto;
+  right: auto;
+}
+
+.hero-panel .tag-three {
+  top: 175px;
+  right: 15px;
+  bottom: auto;
+  left: auto;
+}
+
+.hero-panel .panel-bottom {
+  margin-top: 0;
+  padding-top: 17px;
+  position: relative;
+  z-index: 3;
+  clear: both;
+}
+
+@media (max-width: 520px) {
+  .hero-panel .service-illustration {
+    height: 225px;
+  }
+
+  .hero-panel .tool-symbol svg {
+    width: 125px;
+    height: 125px;
+  }
+
+  .hero-panel .tag-one {
+    top: 20px;
+    right: 8px;
+  }
+
+  .hero-panel .tag-two {
+    top: 100px;
+    left: 0;
+  }
+
+  .hero-panel .tag-three {
+    top: 155px;
+    right: 0;
+  }
+}
