@@ -132,3 +132,7 @@
 .hero-panel .floating-tag {
   display: none !important;
 }
+/* Sag panel etiketlerini gizle */
+.hero-panel .floating-tag {
+  display: none !important;
+}
