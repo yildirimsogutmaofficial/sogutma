@@ -128,3 +128,7 @@
   right: 5%;
   bottom: 75px;
 }
+/* Sag panelde ust uste binmeyi onle */
+.hero-panel .floating-tag {
+  display: none !important;
+}
