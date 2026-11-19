@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bursa Beyaz Eşya Servisi | Yıldırım Soğutma Teknik Servis</title>
+
+  <meta name="description" content="Bursa beyaz eşya servisi. Yıldırım Soğutma Teknik Servis ile çamaşır makinesi, bulaşık makinesi ve buzdolabı arıza, bakım ve onarım desteği.">
+
+  <meta name="robots" content="index,follow">
+
+  <link rel="canonical" href="https://bursabeyazesyaservisi.tr/beyaz-esya-servisi.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:title" content="Bursa Beyaz Eşya Servisi | Yıldırım Soğutma Teknik Servis">
+  <meta property="og:description" content="Bursa genelinde çamaşır makinesi, bulaşık makinesi ve buzdolabı bakım ve onarım desteği.">
+  <meta property="og:url" content="https://bursabeyazesyaservisi.tr/beyaz-esya-servisi.html">
+
+  <style>
+    :root {
+      --navy: #102b46;
+      --blue: #173e60;
+      --teal: #12a99b;
+      --light: #f3f8fb;
+      --text: #26394a;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--light);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 19px 0;
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .brand small {
+      display: block;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: 1.5px;
+      color: #b8d5e5;
+    }
+
+    .back-link {
+      color: white;
+      border: 1px solid #6d8da5;
+      padding: 9px 16px;
+      border-radius: 9px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #102b46, #195275);
+      color: white;
+      padding: 75px 0;
+    }
+
+    .eyebrow {
+      color: #76e6d8;
+      font-size: 13px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.2;
+      margin: 16px 0 22px;
+    }
+
+    .hero p {
+      max-width: 760px;
+      font-size: 18px;
+      color: #e0edf5;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 28px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 13px 22px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .btn-phone {
+      background: var(--teal);
+      color: white;
+    }
+
+    .btn-wa {
+      background: #25d366;
+      color: white;
+    }
+
+    section.content {
+      padding: 65px 0;
+    }
+
+    h2 {
+      color: var(--navy);
+      font-size: clamp(25px, 3vw, 34px);
+      line-height: 1.3;
+      margin: 0 0 20px;
+    }
+
+    h3 {
+      color: var(--navy);
+      margin-top: 0;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin-bottom: 35px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #e0eaf0;
+      border-radius: 16px;
+      padding: 26px;
+      box-shadow: 0 8px 24px rgba(16,43,70,.06);
+    }
+
+    .card-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .area {
+      background: white;
+    }
+
+    .area-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 25px;
+    }
+
+    .area-list span {
+      padding: 9px 15px;
+      border-radius: 30px;
+      background: #eaf5f7;
+      color: var(--navy);
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .contact {
+      background: #e8f3f6;
+      text-align: center;
+    }
+
+    .contact p {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .contact .buttons {
+      justify-content: center;
+    }
+
+    footer {
+      background: var(--navy);
+      color: #d3e3ed;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    footer a {
+      color: #76e6d8;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding: 50px 0;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+
+      .header-inner {
+        align-items: flex-start;
+      }
+
+      .buttons {
+        flex-direction: column;
+      }
+
+      .btn {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      Yıldırım Soğutma
+      <small>TEKNİK SERVİS · BURSA</small>
+    </a>
+
+    <a class="back-link" href="index.html">
+      ← Ana Sayfa
+    </a>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="container">
+      <div class="eyebrow">YILDIRIM SOĞUTMA TEKNİK SERVİS</div>
+
+      <h1>Bursa Beyaz Eşya Servisi</h1>
+
+      <p>
+        Bursa genelinde çamaşır makinesi, bulaşık makinesi
+        ve buzdolabı arızaları için bakım ve onarım desteği.
+        Yıldırım Soğutma Teknik Servis olarak servis
+        taleplerinizi değerlendiriyoruz.
+      </p>
+
+      <div class="buttons">
+        <a class="btn btn-phone" href="tel:+905057068598">
+          ☎ 0505 706 85 98
+        </a>
+
+        <a class="btn btn-wa"
+           href="https://wa.me/905057068598"
+           target="_blank"
+           rel="noopener">
+          WhatsApp'tan Yazın
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2>Bursa Beyaz Eşya Tamir ve Bakım Hizmetleri</h2>
+
+      <p class="intro">
+        Beyaz eşya cihazlarında meydana gelen arızalar
+        günlük yaşamı zorlaştırabilir. Bursa'da
+        çamaşır makinesi, bulaşık makinesi ve buzdolabı
+        bakım ve onarım talepleriniz için bizimle
+        iletişime geçebilirsiniz. Cihazınızın markası,
+        modeli ve arıza belirtisi hakkında bilgi vererek
+        servis sürecini başlatabilirsiniz.
+      </p>
+
+      <div class="grid">
+
+        <article class="card">
+          <div class="card-icon">🧺</div>
+          <h3>Çamaşır Makinesi Servisi</h3>
+          <p>
+            Çamaşır makinesinin su almaması, su boşaltmaması,
+            sıkma yapmaması, sesli çalışması veya
+            programı tamamlamaması gibi sorunlarda
+            arıza tespiti ve onarım desteği.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🍽️</div>
+          <h3>Bulaşık Makinesi Servisi</h3>
+          <p>
+            Bulaşık makinesinin temiz yıkamaması,
+            su almaması, su tahliye etmemesi veya
+            çalışmaması gibi arızalar için
+            bakım ve onarım talepleri.
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">❄️</div>
+          <h3>Buzdolabı Servisi</h3>
+          <p>
+            Buzdolabının yeterince soğutmaması,
+            aşırı buzlanma, su akıtma veya
+            sesli çalışma sorunları için
+            teknik servis desteği.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="content area">
+    <div class="container">
+      <h2>Bursa Beyaz Eşya Servisi Hizmet Bölgeleri</h2>
+
+      <p>
+        Osmangazi, Nilüfer, Yıldırım, Gürsu ve Kestel
+        başta olmak üzere Bursa'nın farklı ilçelerinden
+        servis taleplerinizi iletebilirsiniz.
+        Bulunduğunuz bölge için servis uygunluğunu
+        telefon veya WhatsApp üzerinden öğrenebilirsiniz.
+      </p>
+
+      <div class="area-list">
+        <span>Osmangazi</span>
+        <span>Nilüfer</span>
+        <span>Yıldırım</span>
+        <span>Gürsu</span>
+        <span>Kestel</span>
+        <span>Mudanya</span>
+        <span>Gemlik</span>
+        <span>İnegöl</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <h2>Sık Sorulan Sorular</h2>
+
+      <h3>Beyaz eşya arızası için nasıl servis talebi oluşturabilirim?</h3>
+      <p>
+        Telefon veya WhatsApp üzerinden cihazınızın
+        markasını, modelini ve yaşadığınız sorunu
+        bildirerek servis talebi oluşturabilirsiniz.
+      </p>
+
+      <h3>Hangi beyaz eşyalara servis desteği veriyorsunuz?</h3>
+      <p>
+        Çamaşır makinesi, bulaşık makinesi ve
+        buzdolabı bakım ve onarım talepleri
+        için bizimle iletişime geçebilirsiniz.
+      </p>
+
+      <h3>Bursa'nın hangi ilçelerinde hizmet veriyorsunuz?</h3>
+      <p>
+        Osmangazi, Nilüfer, Yıldırım, Gürsu,
+        Kestel ve diğer Bursa ilçelerinde
+        servis uygunluğunu öğrenmek için
+        bizimle iletişime geçebilirsiniz.
+      </p>
+    </div>
+  </section>
+
+  <section class="content contact">
+    <div class="container">
+      <h2>Bursa Beyaz Eşya Servisi İçin İletişime Geçin</h2>
+
+      <p>
+        Çamaşır makinesi, bulaşık makinesi veya
+        buzdolabı arızanız için bizimle iletişime
+        geçebilirsiniz. Servis uygunluğu ve
+        ücretlendirme hakkında bilgi alabilirsiniz.
+      </p>
+
+      <div class="buttons">
+        <a class="btn btn-phone" href="tel:+908503080849">
+          ☎ 0850 308 08 49
+        </a>
+
+        <a class="btn btn-wa"
+           href="https://wa.me/905057068598"
+           target="_blank"
+           rel="noopener">
+          WhatsApp ile Servis Talebi
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <p>© 2026 Yıldırım Soğutma Teknik Servis</p>
+    <p>Bursa Beyaz Eşya Servisi · Bakım ve Onarım Desteği</p>
+    <a href="index.html">Ana Sayfaya Dön</a>
+  </div>
+</footer>
+
+</body>
+</html>
