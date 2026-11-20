@@ -209,17 +209,22 @@ footer a { color: #76e6d8; }
   .btn { text-align: center; }
 }
 
-/* Kombi sayfasi yazi ve arka plan duzeltmesi */
+/* Kombi tamiri ve bakimi bolumlerinde okunabilirlik */
 .content:not(.area):not(.contact) {
-  background: #f3f8fb;
-  color: #26394a;
+  background: #f3f8fb !important;
+  color: #26394a !important;
 }
 
 .content:not(.area):not(.contact) h2,
 .content:not(.area):not(.contact) h3 {
-  color: #102b46;
+  color: #102b46 !important;
 }
-</style>
+
+.content:not(.area):not(.contact) p {
+  color: #26394a !important;
+}
+
+  </style>
 </head>
 
 <body>
@@ -259,9 +264,16 @@ footer a { color: #76e6d8; }
            target="_blank" rel="noopener">
           WhatsApp'tan Yazın
         </a>
+  
       </div>
-      
-<div style="margin-top:45px;">
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+
+      <div style="margin-top:45px;">
+
   <h2>Bursa Kombi Tamiri ve Arıza Servisi</h2>
 
   <p>
